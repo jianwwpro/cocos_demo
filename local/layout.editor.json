@@ -1,0 +1,122 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 171,
+      "y": 25,
+      "width": 1018,
+      "height": 742,
+      "layout": {
+        "type": "dock-h",
+        "children": [
+          {
+            "width": 204,
+            "height": 655,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 204,
+                "height": 226,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ]
+              },
+              {
+                "width": 204,
+                "height": 426,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "assets",
+                  "cloud-function"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 504,
+            "height": 654.5,
+            "type": "dock-v",
+            "children": [
+              {
+                "width": 504,
+                "height": 342.734375,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "scene"
+                ]
+              },
+              {
+                "width": 504,
+                "height": 308.765625,
+                "type": "panel",
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline",
+                  "game-window"
+                ]
+              }
+            ]
+          },
+          {
+            "width": 566,
+            "height": 654.5,
+            "type": "panel",
+            "active": 0,
+            "children": [
+              "inspector",
+              "cocos-services"
+            ]
+          }
+        ]
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "cloud-function",
+        "scene",
+        "console",
+        "timeline",
+        "game-window",
+        "inspector",
+        "cocos-services"
+      ]
+    },
+    "worker": {},
+    "window-1626163796210": {}
+  },
+  "panels": {
+    "node-library": {
+      "x": 846,
+      "y": 424,
+      "width": 300,
+      "height": 508
+    },
+    "preferences": {
+      "x": 470,
+      "y": 171,
+      "width": 584,
+      "height": 554
+    },
+    "store": {
+      "x": 281,
+      "y": 94,
+      "width": 1000,
+      "height": 728
+    },
+    "builder": {
+      "x": 470,
+      "y": 73,
+      "width": 500,
+      "height": 728
+    }
+  },
+  "panelLabelWidth": {}
+}
